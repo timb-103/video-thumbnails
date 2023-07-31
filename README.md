@@ -7,6 +7,7 @@
 ## Features
 
 - 🕑 Take thumbnails from any second of the video (default @ 1s)
+- 🌀 Typescript types
 - ⚡ Fast & easy to use
 
 ## Install
@@ -20,8 +21,9 @@ npm i video-thumbnails --save
 ```js
 const videoURL = 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
 const thumbnail = await getVideoThumbnail(videoURL)
-```
 
+// { ok: true, buffer: <Buffer 89 50...> }
+```
 
 <!-- Badges -->
 
