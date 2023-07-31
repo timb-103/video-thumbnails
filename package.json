@@ -1,0 +1,22 @@
+{
+  "name": "video-thumbnails",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node .playground/index.ts",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "@ffprobe-installer/ffprobe": "1.4.1",
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "fluent-ffmpeg": "2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.5",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.3"
+  }
+}
