@@ -15,6 +15,8 @@
 npm i video-thumbnails --save
 ```
 
+## Usage
+
 ```js
 const videoURL = 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
 const thumbnail = await getVideoThumbnail(videoURL)
