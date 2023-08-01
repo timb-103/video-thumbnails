@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "video-thumbnails": "^1.0.1"
+  }
+}

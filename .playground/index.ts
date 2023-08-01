@@ -1,4 +1,4 @@
-import getVideoThumbnail from '../src/index'
+import getVideoThumbnail from 'video-thumbnails'
 
 async function start() {
   try {

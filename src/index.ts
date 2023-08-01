@@ -1,6 +1,6 @@
-import ffmpegInstaller from '@ffmpeg-installer/ffmpeg'
-import ffprobeInstaller from '@ffprobe-installer/ffprobe'
-import ffmpeg from 'fluent-ffmpeg'
+import * as ffmpegInstaller from '@ffmpeg-installer/ffmpeg'
+import * as ffprobeInstaller from '@ffprobe-installer/ffprobe'
+import * as ffmpeg from 'fluent-ffmpeg'
 
 ffmpeg.setFfmpegPath(ffmpegInstaller.path)
 ffmpeg.setFfprobePath(ffprobeInstaller.path)
@@ -17,7 +17,7 @@ export interface ThumbnailResponse {
  * @param url - a public video URL
  * @param coverTime - the seconds mark to take the screenshot (higher = slower)
  */
-export default async function getVideoThumbnail(url: string, coverTime: number = 0): Promise<ThumbnailResponse> {
+export async function getVideoThumbnail(url: string, coverTime: number = 0): Promise<ThumbnailResponse> {
   return new Promise(async (resolve) => {
     // format the cover time
     let coverTimeNew = '00:00:01'

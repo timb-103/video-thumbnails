@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "esModuleInterop": true,
+    // "esModuleInterop": true,
     // "moduleResolution": "node",
     "outDir": "dist",
     "skipLibCheck": true,
     "module": "CommonJS",
     "declaration": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
