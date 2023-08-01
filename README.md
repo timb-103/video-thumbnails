@@ -2,13 +2,14 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 
-> Get thumbnail images from any public video URL. 
+> Get thumbnail images from any public video URL.
 
 ## Features
 
-- 🕑 Take thumbnails from any second of the video (default @ 1s)
+- 🕑 Take thumbnails from any second of the video (default = 1s)
 - 🌀 Typescript types
 - ⚡ Fast & easy to use
+- 📹 Uses ffmpeg to process video
 
 ## Install
 

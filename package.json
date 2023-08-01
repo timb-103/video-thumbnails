@@ -1,6 +1,6 @@
 {
   "name": "video-thumbnails",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "dev": "ts-node .playground/index.ts",
     "build": "tsc",
